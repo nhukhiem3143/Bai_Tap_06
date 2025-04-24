@@ -54,6 +54,9 @@
 - Họ đệm : Nguyễn Như
 - Số điện thoại : 0968694065
 - Ngày/Tháng/Năm sinh : 31/05/2004
+
+![image](https://github.com/user-attachments/assets/f6b84d0f-0f9b-4b3c-aa94-67bc151eedc7)
+
 ## 3. SQL để tìm xem có những sv nào trùng hoàn toàn ngày/tháng/năm 
 ```sql
 SELECT * 
