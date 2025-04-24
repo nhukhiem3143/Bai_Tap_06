@@ -151,7 +151,17 @@ WHERE
 - master.dbo.spt_values là bảng hệ thống chứa nhiều số liên tiếp (dùng để lặp từ 1 đến độ dài của số điện thoại).
 - So sánh từng ký tự một giữa SV.sdt và '968694065', đếm số ký tự khác nhau.
 - Chỉ lấy những dòng có đúng 1 ký tự khác.
+### ✅ Ví dụ minh họa:
+#### SĐT của tôi: 968694065
+#### Dữ liệu SV có mấy số:
+- 968694065 ← giống y chang của tôi (==> bị loại, vì không sai số nào)
+- 968694165 ← khác 1 số (==> được chọn)
+- 968694666 ← khác 3 số (==> bị loại)
+- 0986694065 ← khác 1 chữ số nhưng khác độ dài (==> bị loại vì điều kiện LEN())
+- Nếu không có ai giống 968694065 chỉ sai đúng 1 số, thì kết quả rỗng.
+
 ### Kết quả : 
+![image](https://github.com/user-attachments/assets/bcaa9a9e-151c-445f-b739-f758446418ea)
 
 ## 9. LIỆT KÊ TẤT CẢ CÁC SV NGÀNH KMT, SẮP XẾP THEO TÊN VÀ HỌ ĐỆM, KIỂU TIẾNG  VIỆT
 ```sql
