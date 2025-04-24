@@ -49,6 +49,7 @@
 ### Như vậy là đã import được dữ liệu trong sv_tnut.sql vào sql server thành công
 
 ## 2. Dữ liệu đầu vào là tên của sv; sđt; ngày, tháng, năm sinh của sinh viên :
+### Thông tin đã có sẵn trong bảng : 
 - Tên : Khiêm
 - Họ đệm : Nguyễn Như
 - Số điện thoại : 0968694065
